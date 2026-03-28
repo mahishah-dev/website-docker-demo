@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "${env.BUILD_NUMBER}"  
         IMAGE_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}:${IMAGE_TAG}"  
         LATEST_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}:latest"  
-        DEPLOY_SERVER = '65.2.31.152'  
+        DEPLOY_SERVER = '13.127.19.255'  
     }  
   
     stages {  
